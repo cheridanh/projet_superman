@@ -1,6 +1,5 @@
-### Projet BATMAN
+### Projet Superman
 ***
-Ceci est un TP fait en cours avec le prof et les autres étudiants.
+Ceci est un TP réalisé avec du HTML et du CSS pour un site static
 ### Screenshot
 ![cover](./asset/superman.jpg)
-[voir la page](https://cheridanh.github.io/projet_batman/)
