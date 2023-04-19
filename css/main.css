@@ -1,0 +1,131 @@
+/* reset */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400&display=swap');
+html{
+    /* formater la taile standard de la police de caractères */
+    font-size: 62.5%; /* 16 * 62.5% = 10.000 */
+    /*background: linear-gradient(to top, rgba(0, 0, 0, 0.6) 50%, rgba(0, 0, 0, 0.6) 50%),
+    url(../asset/cover-batman.jpg) no-repeat fixed center center / cover;
+    scroll-behavior: smooth;*/
+    background-color: var(--bgcolor-body);
+}
+body{
+    font: 1.6rem 'Roboto Slab', sans-serif; /* serif */
+    line-height: 1.6;
+    letter-spacing: 0.1rem;
+    margin: 0;
+    background-color: var(--bgcolor-primary-ff); /* fond arrière-plan */
+    color: var(--bgcolor-default-text); /* couleur du texte */
+}
+h1,h2,h3,h4,h5,h6,p,ul,ol{ /* contexte css */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 300;
+}
+img{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: #6e65ec;
+}
+button{
+    padding: 0;
+    background: transparent;
+    font-size: inherit;
+    border: 0;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+*{
+  box-sizing: border-box;  
+}
+
+/*Thème*/
+
+:root {
+    --bgcolor-title: #005a78;
+    --bgcolor-body: #52a0bd;
+    --bgcolor-columns: #2c3e50;
+    --bgcolor-button-primary: #1d71aa;
+    --bgcolor-button-alert: #c0392b;
+    --bgcolor-button-success: #166a3d;
+    --bgcolor-white : #fff;
+    --bgcolo-black : #000;
+}
+header h1 {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--bgcolor-title);
+    color: var(--bgcolor-white);
+}
+main figure {
+    background-color: var(--bgcolor-white);
+    max-width: 70rem;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+figure h2 {
+    font-family: 'Lobster', cursive;
+    color: var(--bgcolor-title);
+    padding: 1rem;
+}
+figure p {
+    text-align: justify;
+}
+figcaption h2, figcaption p {
+    text-align: center;
+}
+figcaption h2,figcaption ul li {
+    padding: 1rem;
+}
+figcaption ul li {
+    background-color: var(--bgcolor-columns);
+    margin: .1rem;
+    color: var(--bgcolor-white);
+}
+footer, section {
+    text-align: center;
+    color: var(--bgcolor-white);
+    max-width: 70rem;
+    padding: 1rem;
+    margin: 2rem auto;
+}
+section {
+    background-color: var(--bgcolor-white);
+    color: var(--bgcolo-black);
+}
+section ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+.button{ /* btn générique */
+    display: inline-block;
+    width: 20rem;
+    line-height: 3.5rem;
+    text-align: center;
+    margin: 1rem 0;
+    padding: .5rem 0;
+    border-radius: .4rem;
+}
+.button-primary{
+    background-color: var(--bgcolor-button-primary);
+    color: var(--bgcolor-white);
+}
+.button-alert{
+    background-color: var(--bgcolor-button-alert);
+    color: var(--bgcolor-white);
+}
+.button-success{
+    background-color: var(--bgcolor-button-success);
+    color: var(--bgcolor-white);
+}
+footer {
+    background-color: var(--bgcolor-columns);
+}
